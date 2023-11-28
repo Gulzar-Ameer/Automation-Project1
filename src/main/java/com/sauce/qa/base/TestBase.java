@@ -19,7 +19,7 @@ public class TestBase {
 	public TestBase() {
 		try {
 			prop = new Properties();
-			FileInputStream ip = new FileInputStream("C:\\Users\\GULZAR\\eclipse-workspace\\Selenium\\SauceDemoTest\\src\\main\\java\\com\\sauce\\qa\\config\\config.properties");
+			FileInputStream ip = new FileInputStream("D:\\Maven\\SauceDemoTest\\src\\main\\java\\com\\sauce\\qa\\config\\config.properties");
 			prop.load(ip);
 		} catch(FileNotFoundException e) {
 			e.printStackTrace();
