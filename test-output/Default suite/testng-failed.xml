@@ -7,6 +7,7 @@
         <methods>
           <include name="validateTitle"/>
           <include name="finishLine"/>
+          <include name="validateLogin"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.sauce.qa.testcases.LoginPageTest -->
